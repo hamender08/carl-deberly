@@ -16,5 +16,12 @@ class Home extends CI_Controller {
 	);
 	$this->load->view('home/all', $data);
     }
+    
+    public function home() {
+	$data = array(
+	    'title' => 'Delivberry | Home',
+	);
+	$this->load->view('home/home', $data);
+    }
 
 }
