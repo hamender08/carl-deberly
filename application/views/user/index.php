@@ -18,14 +18,15 @@
             body {
                 padding-top: 70px;
             }
-            .navbar-default {
-                background-color:#bf2934;
-                background-image: none;
-                background-repeat: no-repeat;
+            .my-navbar {
+                background-color:#bf2934 !important;
+                background-image: none !important;
+                background-repeat: no-repeat !important;
 
             }
-            .navbar-default a{
+            .my-navbar a{
                 color:#fff !important;
+                font-weight: normal !important;
             }
             .text-danger
             {
@@ -37,7 +38,7 @@
     <body>
 
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top my-navbar">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -46,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo base_url(); ?>">Delivberry</a>
+                    <a class="navbar-brand" href="<?php echo base_url('product'); ?>">Delivberry</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">

@@ -52,7 +52,7 @@
                             <td><?php echo date('d/m/Y H:i:s', strtotime($a->date_added)); ?></td>
                             <td><?php echo date('d/m/Y H:i:s', strtotime($a->date_modifed)); ?></td>
                             <td>
-				    <a class="btn btn-warning" href="<?php echo base_url('admin/category/edit/'.$a->id); ?>" data-tooltip="tooltip" title="Edit"><i class="fa fa-edit"></i></a>&nbsp;<a class="btn btn-danger remove-product" data-url="<?php echo base_url('admin/category/remove/'.$a->id); ?>" data-tooltip="tooltip" title="Delete"><i class="fa fa-trash-o"></i></a>&nbsp;<a class="btn btn-info" href="<?php echo base_url('admin/category/subcategorylist/'.$a->id); ?>" data-tooltip="tooltip" title="sub-category"><i class="fa fa-th-list"></i></a>
+				    <a class="btn btn-warning" href="<?php echo base_url('admin/category/edit/'.$a->id); ?>" data-tooltip="tooltip" title="Edit"><i class="fa fa-edit"></i></a>&nbsp;<a class="btn btn-danger remove-category" data-url="<?php echo base_url('admin/category/remove/'.$a->id); ?>" data-tooltip="tooltip" title="Delete"><i class="fa fa-trash-o"></i></a>&nbsp;<a class="btn btn-info" href="<?php echo base_url('admin/category/subcategorylist/'.$a->id); ?>" data-tooltip="tooltip" title="sub-category"><i class="fa fa-th-list"></i></a>
 				</td>
                         </tr>
                     <?php } ?>

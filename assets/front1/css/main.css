@@ -1,0 +1,104 @@
+/************************************************************************************/
+/************************************************************************************/
+/********************STUDIO TESSERACT DESIGNING CODE FILE***************************/
+/************************************************************************************/
+/************************************************************************************/
+body{font-family: 'Open Sans', sans-serif; margin:0; padding:0;}
+.section-1{  padding:32px 0px 62px 0px; margin:0px 0px 0px 0px; background:#0871cc; color:#fff;}
+.section-2{  padding:52px 0px 0px 0px; margin:32px 0px 0px 0px;}
+.section-4{  padding:52px 0px 52px 0px; margin:32px 0px 0px 0px; background:#0871cc; color:#fff;}
+.section-3{ height:420px; padding:0px 0px 0px 0px; }
+.box{ background:#bf2934; width:100px; height:100px; border-radius:50px; padding:28px 0px; border:2px solid; margin:0 auto;}
+.box i{ background:#bf2934; color:#fff; font-size:45px;}
+/* Footer Subscribe
+------------------------------------*/
+.footer-subscribe{background:#a10f2b;}
+.footer .copyright a {color: #ffffff;}
+.footer .footer-block {padding:35px 0; background:#151515;}
+.footer .footer-block p {color: #888; font-size: 14px;}
+.footer img.footer-logo { margin: 15px 0 20px;}
+.footer .stats-list li {color: #bbb;margin-bottom: 7px;}
+.footer .stats-list li i {margin-right: 10px;vertical-align: middle;}
+.footer .footer-social li i {color: #bbb;width: 30px;height: 30px;padding: 8px;font-size: 16px;text-align: center;background: #414040;}
+.footer .footer-social li i:hover {background: #353535;}
+.footer h2.thumb-headline {color: #ddd; font-size: 16px; margin-bottom: 3px; text-transform: uppercase;}
+.footer .simple-list li {color: #bbb;}
+.footer .simple-list a {color: #bbb; font-size: 14px; font-weight: 200;}
+.footer .copyright {padding: 15px 0 15px 0; border-top: none; background: #191919;}
+.footer .copyright p {color: #bbb; font-size: 12px; margin-top: 13px; margin-bottom: 0;}
+.footer .copyright a {color:#de6325;}
+@media (max-width: 991px) {
+	.footer .copyright {text-align: center;}
+	.footer .copyright p {margin-bottom: 15px;}
+}
+.footer-subscribe {padding: 20px 0;background:#de6325;}
+@media (max-width: 768px) {
+  .footer-subscribe {text-align: center; }
+   img {vertical-align: middle; width:100%;background:center;}
+}
+.footer-subscribe h2 {margin: 0;color: #fff;font-size: 24px;font-weight: 200;text-transform: uppercase;}
+.footer-subscribe input {border-color: #fff;	border-right: none;background: transparent;}
+.footer-subscribe .form-control {color: #fff;font-size: 14px;font-weight: 200;}
+.footer-subscribe .form-control:focus {box-shadow: none;border-color: #fff;}
+.footer-subscribe .form-control::-moz-placeholder {color: #fff;}
+.footer-subscribe .form-control:-ms-input-placeholder {color: #fff;}
+.footer-subscribe .form-control::-webkit-input-placeholder {color: #fff;}
+.footer-subscribe .input-group-btn {border-color: #fff;background: transparent;}
+.footer-subscribe .input-group-btn .btn {border: 1px solid #fff;background: transparent;}
+.footer-subscribe .input-group-btn i {color: #fff;font-size: 16px;font-weight: 200;}
+.btn-danger{ background:#bf2934;}
+.btn-danger:hover{ background:#bf2934;}
+.form-control{ background:#ccc; border:1px solid #ccc; height:50px; margin-bottom:12px;}
+.btn-block{ height:50px; margin-bottom:12px;}
+.remove-all{ padding:0px!important; margin:0px!important;}
+.well{background:#bf2934; border-radius:0px;}
+.section-5 { padding: 32px 0px 62px 0px; margin: 0px 0px 0px 0px; background: #0871cc; color: #fff; min-height:280px;}
+.label{position:relative; top:8px;}
+.section-6 h1{ color:#0871cc;}
+h1 span{ color:#bf2934;}
+.label-info{ background:#bf2934; font-size:16px;}
+.navbar-default{background:transparent!important;border:none;}
+.navbar-default .navbar-nav>li>a { color: #fff;font-size:18px;font-weight:800; }
+.navbar-default .navbar-nav>li>a:hover { color: #fff; font-size:18px; font-weight:800; }
+.btn-primary{ background:#0871cc;}
+.btn-primary:hover{ background:#0871cc;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { color: #fff; background-color:#0871cc;}
+.head h1{ margin-top:-31px; text-shadow:1px 1px 1px #000; font-size:61px;}
+.head p{text-shadow:1px 1px 1px #000; font-size:21px;}
+.sidebar li{ background:#fff !important; padding:12px 12px 12px 12px; border-top:1px solid rgb(218, 218, 250);
+}
+.sidebar li a{ color:#0871cc; text-decoration:none;}
+.sidebar li:hover a{color:#bf2934; text-decoration:none;}
+#account-tabs .credit-card-info > h4 {
+      margin: 20px 0; }
+      #account-tabs .credit-card-info > h4:not(:first-child) {
+        margin-top: 50px; }
+    #account-tabs .credit-card-info .ic-btn {
+      width: 100%;
+      margin-bottom: 10px; }
+  #account-tabs .credit-card-info .line > *,
+  #account-tabs .personal-info .line > *,
+  #account-tabs .password .line > * {
+    display: block;
+    margin-bottom: 15px; }
+  #account-tabs .notifications .toggles {
+    margin: 20px 0; }
+    #account-tabs .notifications .toggles label.checkbox {
+      padding-left: 50px;
+      font-size: 16px;
+      line-height: 18px; }
+      #account-tabs .notifications .toggles label.checkbox input {
+        margin-right: 15px; }
+      #account-tabs .notifications .toggles label.checkbox input[type='checkbox'] {
+        position: inherit;
+        float: left; }
+h4 {
+    font-weight: 800;
+    color: #757575;
+    font-size: 16px;
+    line-height: 17px;
+}
+#account-tabs .credit-card-info .line > *, #account-tabs .personal-info .line > *, #account-tabs .password .line > * {
+    display: block;
+    margin-bottom: 15px;
+}

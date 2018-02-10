@@ -139,7 +139,7 @@ public function subcategory($argID) {
             } else {
                 $this->session->set_flashdata('error', 'There is an error in adding sub-category');
             }
-            redirect(base_url('admin/category'), 'refresh');
+            redirect(base_url('admin/category/subcategorylist/'.$argID), 'refresh');
         }
         $this->load->view('admin/includes/template', $data);
     }    

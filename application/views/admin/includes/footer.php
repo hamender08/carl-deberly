@@ -35,7 +35,7 @@
 <!--Ends Here-->
 <!--Delete Category Modal-->
 <?php $this->load->view('admin/modals/delete_category'); ?>
-<?php $this->load->view('admin/modals/delete_subcategory'); ?>
+<?php //$this->load->view('admin/modals/delete_subcategory'); ?>
 <!--Ends Here-->
 <!-- Bootstrap core JavaScript-->
 <script src="<?php echo base_url() ?>assets/admin/vendor/jquery/jquery.min.js"></script>

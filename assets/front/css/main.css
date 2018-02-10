@@ -60,3 +60,52 @@ body{font-family: 'Open Sans', sans-serif; margin:0; padding:0;}
 	min-height:280px;
 }
 .label{position:relative; top:8px;}
+.label{position:relative; top:8px;}
+.section-6 h1{ color:#0871cc;}
+h1 span{ color:#bf2934;}
+.label-info{ background:#bf2934; font-size:16px;}
+.navbar-default{background:transparent!important;border:none;}
+.navbar-default .navbar-nav>li>a { color: #fff;font-size:18px;font-weight:800; }
+.navbar-default .navbar-nav>li>a:hover { color: #fff; font-size:18px; font-weight:800; }
+.btn-primary{ background:#0871cc;}
+.btn-primary:hover{ background:#0871cc;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { color: #fff; background-color:#0871cc;}
+.head h1{ margin-top:-31px; text-shadow:1px 1px 1px #000; font-size:61px;}
+.head p{text-shadow:1px 1px 1px #000; font-size:21px;}
+.sidebar li{ background:#fff !important; padding:12px 12px 12px 12px; border-top:1px solid rgb(218, 218, 250);
+}
+.sidebar li a{ color:#0871cc; text-decoration:none;}
+.sidebar li:hover a{color:#bf2934; text-decoration:none;}
+#account-tabs .credit-card-info > h4 {
+      margin: 20px 0; }
+      #account-tabs .credit-card-info > h4:not(:first-child) {
+        margin-top: 50px; }
+    #account-tabs .credit-card-info .ic-btn {
+      width: 100%;
+      margin-bottom: 10px; }
+  #account-tabs .credit-card-info .line > *,
+  #account-tabs .personal-info .line > *,
+  #account-tabs .password .line > * {
+    display: block;
+    margin-bottom: 15px; }
+  #account-tabs .notifications .toggles {
+    margin: 20px 0; }
+    #account-tabs .notifications .toggles label.checkbox {
+      padding-left: 50px;
+      font-size: 16px;
+      line-height: 18px; }
+      #account-tabs .notifications .toggles label.checkbox input {
+        margin-right: 15px; }
+      #account-tabs .notifications .toggles label.checkbox input[type='checkbox'] {
+        position: inherit;
+        float: left; }
+h4 {
+    font-weight: 800;
+    color: #757575;
+    font-size: 16px;
+    line-height: 17px;
+}
+#account-tabs .credit-card-info .line > *, #account-tabs .personal-info .line > *, #account-tabs .password .line > * {
+    display: block;
+    margin-bottom: 15px;
+}
